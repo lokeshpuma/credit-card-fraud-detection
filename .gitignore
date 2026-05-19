@@ -1,0 +1,15 @@
+# Dataset
+creditcard.csv
+
+# macOS system files
+.DS_Store
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
