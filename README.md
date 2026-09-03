@@ -66,3 +66,25 @@ The underlying model is trained on a highly anonymized dataset of European credi
 - **`Time`**: Seconds elapsed between this transaction and the first transaction in the dataset.
 - **`Amount`**: Transaction monetary value, which can be used for custom cost-sensitive learning or rule-based fraud screening.
 - **`Class`**: Response variable ($1$ for Fraud, $0$ for Legitimate).
+
+## 🗺️ Future Enhancements
+
+- [ ] **API Integration:** Implement a FastAPI endpoint for remote, programmatic predictions.
+- [ ] **Model Expansion:** Add support for ensemble models (like Random Forest or XGBoost) to compare performance against Logistic Regression.
+- [ ] **Dockerization:** Create a `Dockerfile` to containerize the Streamlit application for easier deployment.
+- [ ] **Advanced Analytics:** Add a historical data dashboard to track transaction trends over time.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! 
+Feel free to check out the [issues page](https://github.com/lokeshpuma/credit-card-fraud-detection/issues) if you want to contribute.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
